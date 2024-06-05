@@ -5,4 +5,7 @@
 - @ConfigurationProperties(prefix = "work")
 - @Value("${work.good-job-times}")
 
-
+### jLab-1-demo-profiles  多环境配置
+- application.yml
+- application-dev.yml
+- application-prod.yml

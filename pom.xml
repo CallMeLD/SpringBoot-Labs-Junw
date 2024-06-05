@@ -11,7 +11,6 @@
 
     <modules>
         <module>jLab-1</module>
-        <!--        <module>jLab-2</module>-->
     </modules>
 
 </project>

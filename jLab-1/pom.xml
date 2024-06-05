@@ -13,7 +13,7 @@
 
     <modules>
         <module>jLab-1-demo</module>
-
+        <module>jLab-1-demo-profiles</module>
     </modules>
 
 </project>

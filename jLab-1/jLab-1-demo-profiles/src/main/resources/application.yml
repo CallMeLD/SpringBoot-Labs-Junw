@@ -1,0 +1,14 @@
+# \u591A\u914D\u7F6E\u6587\u4EF6\u4E2D\u7684\u76F8\u540C\u914D\u7F6E\u9879
+spring:
+  application:
+    name:jLab-1-demo-profiles
+  # \u6307\u5B9A\u914D\u7F6E\u6587\u4EF6
+  profiles:
+    active: dev
+
+# application-${profile} \u914D\u7F6E\u6587\u4EF6\u7684\u4F18\u5148\u7EA7\u66F4\u9AD8\uFF0C\u4F1A\u8986\u76D6\u5B83
+server:
+  port: 7080
+
+
+
