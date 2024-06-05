@@ -1,0 +1,6 @@
+work:
+  good-job-times: 100 # 特别优秀的完成工作的次数，单位：次。
+  completed-job-times: 100 # 完成工作的次数，单位：次。
+  desc: "特别优秀的完成工作 ${work.good-job-times} 次，完成工作 ${work.completed-job-times} 次"
+
+
