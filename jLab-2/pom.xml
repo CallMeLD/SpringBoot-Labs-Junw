@@ -12,6 +12,7 @@
     <groupId>my.junw</groupId>
     <artifactId>jLab-2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <name>jLab-2</name>
     <description>jLab-2</description>
