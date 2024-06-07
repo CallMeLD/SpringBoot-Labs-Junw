@@ -1,18 +1,23 @@
-package my.junw.jlab2mapstructjdk8.lombok.test;
-
+package my.junw.jlab2mapstructjdk8.lombok;
 
 import my.junw.jlab2mapstructjdk8.lombok.converted.SourceToTarget;
 import my.junw.jlab2mapstructjdk8.lombok.vo.SourceVO;
 import my.junw.jlab2mapstructjdk8.lombok.vo.TargetVO;
+import org.junit.jupiter.api.Test;
 
-public class TestMain {
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-    public static void main( String[] args ) {
+public class SourceTargetMapperTest {
+
+    @Test
+    public void SourceToTargetTest() {
         SourceVO s = new SourceVO();
         s.setTest( "5" );
 
         TargetVO t = SourceToTarget.INSTANCE.toTarget( s );
-        System.out.println( t.getTesting() );
+        assertEquals( 5, (long) t.getTesting() );
     }
+
+
 
 }
