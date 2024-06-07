@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class MultiParamsTest {
 
     /**
-     * 属性相同
+     * 多参数源
      */
     @Test
     public void multiParamsTest() {
