@@ -18,8 +18,10 @@
     <description>jLab-2</description>
 
     <modules>
-        <!--lombok-->
-        <module>jLab-2-1</module>
+<!--        <module>jLab-2-lombok</module>-->
+        <module>jLab-2-MapStruct-jdk8</module>
+        <module>jLab-2-MapStruct-jdk17</module>
+
     </modules>
 
 </project>

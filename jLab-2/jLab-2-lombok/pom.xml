@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>my.junw</groupId>
-    <artifactId>jLab-2-1</artifactId>
+    <artifactId>jLab-2-lombok</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>jLab-2</name>
     <description>jLab-2</description>
