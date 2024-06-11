@@ -1,5 +1,6 @@
 package my.junw.jlab2mapstruct.multiParamType.converted;
 
+import java.util.UUID;
 import my.junw.jlab2mapstruct.multiParamType.utils.StringBOUtils;
 import my.junw.jlab2mapstruct.multiParamType.vo.SourceEntity;
 import my.junw.jlab2mapstruct.multiParamType.vo.TargetEntity;
@@ -48,7 +49,9 @@ public interface EntityMapper {
             // expression 表达式：方法调用-外部工具类
             @Mapping(target = "expression_util", expression = "java(StringBOUtils.toBOString(sourceEntity.getIgnore()))"),
             // 嵌套-子对象属性完全一致，可以用.
-            @Mapping(target = ".", source = "baby")
+            @Mapping(target = ".", source = "baby"),
+            // 默认表达式，仅source值为null时生效
+            @Mapping(target="id", source="sourceId", defaultExpression = "java(\"UUID\"  )")
     })
     TargetEntity mapToTarget(SourceEntity sourceEntity);
 
