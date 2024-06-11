@@ -46,7 +46,9 @@ public interface EntityMapper {
             // expression 表达式：方法调用-当前类
             @Mapping(target = "expression_method",expression = "java(EntityMapper.getLastRunTime(sourceEntity))"),
             // expression 表达式：方法调用-外部工具类
-            @Mapping(target = "expression_util", expression = "java(StringBOUtils.toBOString(sourceEntity.getIgnore()))")
+            @Mapping(target = "expression_util", expression = "java(StringBOUtils.toBOString(sourceEntity.getIgnore()))"),
+            // 嵌套-子对象属性完全一致，可以用.
+            @Mapping(target = ".", source = "baby")
     })
     TargetEntity mapToTarget(SourceEntity sourceEntity);
 
