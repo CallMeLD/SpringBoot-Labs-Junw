@@ -13,4 +13,6 @@ public class HomeVO {
 
     private Integer womanAge;
 
+    private BabyEO baby;
+
 }

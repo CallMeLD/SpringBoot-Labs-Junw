@@ -5,11 +5,10 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class WomanVO {
+public class BabyVO {
 
-    private String name;
+    private String bname;
 
-    private Integer age;
+    private int bAge;
 
-    private BabyVO baby;
 }
