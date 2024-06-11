@@ -23,7 +23,7 @@ public class TargetEntity {
     private String expression_method;
     private String ignoreStr;
     private String expression_util;
-    private BabyEO baby;
+    private ChildEO baby;
     private String id;
 
 }

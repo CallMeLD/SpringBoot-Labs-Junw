@@ -19,6 +19,6 @@ public class SourceEntity {
     private java.sql.Timestamp timestampValue;
     private String stringValue;
     private String ignore;
-    private BabyVO baby;
+    private ChildVO baby;
     private String sourceId;
 }

@@ -1,10 +1,10 @@
 package my.junw.jlab2mapstruct.multiParamType;
 
 import my.junw.jlab2mapstruct.multiParamType.converted.EntityMapper;
+import my.junw.jlab2mapstruct.multiParamType.vo.ChildVO;
 import my.junw.jlab2mapstruct.multiParamType.vo.MyEnum;
 import my.junw.jlab2mapstruct.multiParamType.vo.SourceEntity;
 import my.junw.jlab2mapstruct.multiParamType.vo.TargetEntity;
-import my.junw.jlab2mapstruct.multiParamType.vo.BabyVO;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
@@ -30,7 +30,7 @@ public class MultiParamTypeTest {
         sourceEntity.setTimestampValue(new Timestamp(System.currentTimeMillis()));
         // sourceEntity.setStringValue("Hello");
         sourceEntity.setIgnore("ignore");
-        BabyVO babyVO = new BabyVO("baby",1);
+        ChildVO babyVO = new ChildVO("baby",1);
         sourceEntity.setBaby(babyVO);
 
         // 调用映射方法，将源实体映射为目标实体

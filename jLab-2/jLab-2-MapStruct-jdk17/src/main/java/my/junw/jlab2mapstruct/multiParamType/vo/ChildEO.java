@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class BabyVO {
+public class ChildEO {
 
     private String bname;
 
