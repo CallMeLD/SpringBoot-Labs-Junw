@@ -10,11 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <!--SpringBoot-->
-
-        <!--配置文件-->
-<!--        <module>jLab-1</module>-->
-        <!--插件-->
+        <module>jLab-1</module>
         <module>jLab-2</module>
     </modules>
 
